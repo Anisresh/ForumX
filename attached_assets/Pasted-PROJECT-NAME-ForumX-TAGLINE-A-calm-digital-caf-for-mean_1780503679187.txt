@@ -1,0 +1,565 @@
+PROJECT NAME
+
+ForumX
+
+TAGLINE
+
+A calm digital café for meaningful conversations.
+
+====================================================
+OVERVIEW
+========
+
+Build a complete production-quality social communication platform called ForumX.
+
+ForumX should feel like:
+
+* A calm digital café
+* A warm online community
+* A place to make friends
+* A place to meet people
+* A place for meaningful conversations
+
+ForumX is NOT:
+
+* A Discord clone
+* A Slack clone
+* A gaming platform
+* A social media feed
+* A server-based platform
+
+Keep the experience simple, beautiful, warm, modern, and welcoming.
+
+====================================================
+TECH STACK
+==========
+
+Frontend:
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+Backend:
+
+* Firebase Authentication
+* Firestore Database
+* Firebase Storage
+* Firebase Hosting
+
+AI:
+
+* Gemini
+* Genkit
+
+IMPORTANT:
+
+The entire application must function normally even if Gemini is unavailable.
+
+Gemini should only be used for optional AI features.
+
+Login and signup must NEVER depend on Gemini.
+
+====================================================
+AUTHENTICATION
+==============
+
+Create:
+
+* Email signup
+* Email login
+* Password reset
+* Logout
+
+Signup fields:
+
+* Username
+* Email
+* Password
+
+Requirements:
+
+* Unique usernames
+* Secure authentication
+* Firebase Authentication
+
+Store:
+
+* uid
+* username
+* email
+* profile_picture
+* bio
+* created_at
+* last_seen
+* online_status
+
+====================================================
+LOGIN SCREEN
+============
+
+Create a beautiful login page.
+
+Style:
+
+* Warm
+* Calm
+* Minimal
+* Elegant
+
+Background:
+
+Soft pastel gradient.
+
+Display:
+
+FORUMX
+
+A calm digital café for meaningful conversations.
+
+Buttons:
+
+* Login
+* Sign Up
+* Forgot Password
+
+Add smooth transitions.
+
+====================================================
+VISUAL DESIGN
+=============
+
+IMPORTANT
+
+Preserve this design philosophy throughout the app.
+
+Inspiration:
+
+* Arc Browser
+* Opera Air
+* Apple Human Interface Guidelines
+* Linear
+
+Use:
+
+* Warm pastel colors
+* Cream backgrounds
+* Soft gradients
+* Glassmorphism
+* Soft shadows
+* Rounded corners
+
+Typography:
+
+* Inter
+
+Avoid:
+
+* Discord styling
+* Gaming aesthetics
+* Neon colors
+* Cyberpunk themes
+* Corporate dashboards
+* Terminal themes
+
+====================================================
+HOME PAGE
+=========
+
+Header:
+
+FORUMX
+
+ONLINE USERS: XX
+
+SIGNED IN AS: USERNAME
+
+Welcome card:
+
+Welcome to ForumX
+
+Connect with friends.
+Meet new people.
+Share ideas in a calm community.
+
+====================================================
+PUBLIC LOBBY
+============
+
+Create one global public lobby.
+
+All users join automatically.
+
+Features:
+
+* Real-time messaging
+* Typing indicators
+* Emoji support
+* Message timestamps
+* Online user count
+* Reply to messages
+* Edit messages (5 minutes)
+* Delete own messages
+* Emoji reactions
+
+Messages expire automatically after:
+
+72 hours
+
+Expired messages removed automatically.
+
+====================================================
+PRIVATE MESSAGES
+================
+
+Allow users to privately message each other.
+
+Features:
+
+* Real-time chat
+* Emoji support
+* Read receipts
+* Last seen
+* Typing indicators
+* Reply support
+* Edit messages
+* Delete messages
+
+Private messages expire after:
+
+60 days
+
+====================================================
+VOICE MESSAGES
+==============
+
+Private chats only.
+
+Allow:
+
+* Record
+* Stop recording
+* Play
+* Pause
+* Replay
+* Duration indicator
+* Playback speed (1x, 1.5x, 2x)
+
+Voice messages must not be available in public lobby.
+
+====================================================
+USER DIRECTORY
+==============
+
+Display all registered users.
+
+Show:
+
+* Profile picture
+* Username
+* Bio
+* Online status
+
+Allow:
+
+* Search users
+* View profile
+* Send friend request
+* Send private message
+
+====================================================
+PROFILES
+========
+
+Profile includes:
+
+* Profile picture
+* Username
+* Bio
+* Join date
+* Friend count
+* Last seen
+
+Allow profile picture upload.
+
+====================================================
+SMART BIO ENHANCER
+==================
+
+Optional Gemini feature.
+
+Users select interests.
+
+AI generates:
+
+* Friendly bio
+* Maximum 100 characters
+
+The app must still work if Gemini is disabled.
+
+====================================================
+FRIEND SYSTEM
+=============
+
+Allow:
+
+* Send friend request
+* Accept request
+* Decline request
+* Remove friend
+
+Friends appear first in user lists.
+
+====================================================
+NOTIFICATIONS
+=============
+
+Support:
+
+* Friend request received
+* Friend request accepted
+* New private message
+* Mention notification
+
+Features:
+
+* Badge count
+* Read/unread state
+
+If empty:
+
+Display:
+
+No notifications yet
+
+Never display a blank page.
+
+====================================================
+BLOCK SYSTEM
+============
+
+Allow users to block others.
+
+Blocked users:
+
+* Cannot send DMs
+* Messages hidden
+* Removed from suggestions
+
+Add blocked users management in settings.
+
+====================================================
+AMBIENT SOUND SYSTEM
+====================
+
+Add optional ambient background sounds.
+
+Options:
+
+* Rain
+* Forest
+* Ocean Waves
+* Coffee Shop
+* Fireplace
+* Night Ambience
+
+Features:
+
+* Volume slider
+* Play/Pause
+* Remember preference
+* Continue while navigating
+
+Disabled by default.
+
+====================================================
+THEMES
+======
+
+Support:
+
+* Light Mode
+* Dark Mode
+
+IMPORTANT:
+
+Light mode remains primary.
+
+Preserve warm pastel visual identity.
+
+====================================================
+QUIET HOURS
+===========
+
+Allow users to mute notifications during selected times.
+
+Example:
+
+10 PM - 7 AM
+
+====================================================
+LAYOUT
+======
+
+Keep layout centered.
+
+Avoid large sidebars.
+
+Add a compact floating sidebar inspired by Opera Air.
+
+Icons:
+
+* Home
+* Lobby
+* Messages
+* Friends
+* Notifications
+* Settings
+
+Sidebar expands on hover.
+
+====================================================
+SETTINGS
+========
+
+Include:
+
+* Profile settings
+* Theme settings
+* Ambient sounds
+* Quiet hours
+* Blocked users
+* Sign out
+
+====================================================
+MESSAGE FEATURES
+================
+
+Allow:
+
+* Reply
+* Edit
+* Delete
+* React with emojis
+* Copy message
+
+====================================================
+ONLINE STATUS
+=============
+
+Show:
+
+* Online
+* Offline
+* Last seen
+
+====================================================
+FOOTER
+======
+
+Display on every page:
+
+Created by Anisresh A R
+
+Small, centered, subtle.
+
+====================================================
+BUG PREVENTION
+==============
+
+Prevent:
+
+* Blank pages
+* Broken routes
+* Missing components
+* Clipped UI
+* Overflow issues
+* Hidden controls
+
+Every page must include:
+
+* Loading state
+* Empty state
+* Error state
+
+====================================================
+EMOJI PICKER
+============
+
+Requirements:
+
+* Fully visible
+* Correct z-index
+* Responsive
+* No clipping
+* No overflow
+* Auto reposition near edges
+
+====================================================
+RESPONSIVENESS
+==============
+
+Support:
+
+* Desktop
+* Tablet
+* Mobile
+
+No overflow.
+
+No cut-off elements.
+
+====================================================
+SECURITY
+========
+
+Use Firebase Security Rules.
+
+Requirements:
+
+* Users edit only their own profile.
+* Users delete only their own messages.
+* Private messages accessible only to participants.
+* Friend requests visible only to involved users.
+* Notifications visible only to recipient.
+
+====================================================
+DATABASE COLLECTIONS
+====================
+
+users
+
+friend_requests
+
+friends
+
+notifications
+
+public_messages
+
+private_conversations
+
+private_messages
+
+blocked_users
+
+ambient_preferences
+
+====================================================
+FINAL GOAL
+==========
+
+Create a polished, production-quality communication platform that feels like a peaceful modern digital café.
+
+Prioritize:
+
+* Simplicity
+* Elegance
+* Comfort
+* Privacy
+* Reliability
+* Friendship
+* Meaningful communication
+
+Do not add unnecessary social-media features, follower counts, streaks, ranking systems, or engagement mechanics.
